@@ -41,19 +41,25 @@ const DEFAULT_PRIMARY_PROFILE: GoogleStorageProfile = {
   id: 'storage-001',
   name: 'Bank Soal Utama',
   description: 'Penyimpanan Google Drive & Google Sheets primer institusi.',
-  google_drive_folder_id: '1cYgXdF66T1GKMw3Dkd26J55E5HZPIRBG',
-  drive_root_folder_id: '1cYgXdF66T1GKMw3Dkd26J55E5HZPIRBG',
-  google_spreadsheet_id: '1xWK5VMJatqMtshx0FnFKZL54N2lQZ7wXoEJCQVT1o9A',
-  spreadsheet_id: '1xWK5VMJatqMtshx0FnFKZL54N2lQZ7wXoEJCQVT1o9A',
+
+  google_drive_folder_id: '1xptzL_8Ev9xP8vWqg38-_M9CnQhgbQ2C',
+  drive_root_folder_id: '1xptzL_8Ev9xP8vWqg38-_M9CnQhgbQ2C',
+
+  google_spreadsheet_id: '1xetHb6N-ylyV3P2vs-okohHbsX1MnxfptJDJlqVYwPc',
+  spreadsheet_id: '1xetHb6N-ylyV3P2vs-okohHbsX1MnxfptJDJlqVYwPc',
+
   apps_script_url:
     process.env.GOOGLE_APPS_SCRIPT_URL ||
-    'https://script.google.com/macros/s/AKfycbx_f5ytW5Hhw7dK-XxKEVLB53-hOZsvtyhqV4ifsfSdOtBSemR0t23G8oyw2XcXtxs9Dg/exec',
+    'https://script.google.com/macros/s/AKfycbyF6dpVrbMemA7gy-Yt6Iyb9aw5CO8TxjtLAKpWzdZvbqucSmyAjvYpvF7D3XTw_g-EkA/exec',
+
   status: 'ACTIVE',
   connection_status: 'CONNECTED',
   is_active: true,
   provider: 'google',
+
   drive_root_name: 'BANK SOAL DIGITAL',
   spreadsheet_name: 'BANK SOAL DIGITAL',
+
   last_connection_check: new Date().toISOString(),
   last_connection_test: new Date().toISOString(),
   last_sync: new Date().toISOString(),
